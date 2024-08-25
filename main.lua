@@ -27,7 +27,7 @@ end
 on_update(function()
   local local_player = get_local_player()
 
-  if local_player and menu.elements.main_toggle:get() and menu.elements.profane_mindcage_toggle:get() then
+  if local_player and menu.elements.profane_mindcage_toggle:get() then
     local player_position = get_player_position()
     local buffs = local_player:get_buffs()
     local consumable_items = local_player:get_consumable_items()
